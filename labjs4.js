@@ -62,23 +62,22 @@ console.log(percentageOfWorld3('china',1441000000));
 
 
 // Lab 4.4. Hàm gọi hàm
-/*
-const describePopulation = function (population) {
-  return population / 7900000000 * 100;
+
+const describePopulation = function (country,population) {
+  return `dân số ${country} chiếm ${population/7900000000*100}% dân số thế giới.`;
 
 }
 function percentageOfWorld1(ten,tilechina) {
   const trung = describePopulation(ten,tilechina);
-
-  return `dân số ${ten} chiếm ${tilechina}% dân số thế giới.`;
+  return trung;
 }
 
 
 
-console.log(percentageOfWorld1('china',18.2));
-console.log(percentageOfWorld1('japan',1.5));
-console.log(percentageOfWorld1('usa',4.2));
-*/
+console.log(percentageOfWorld1('china',1441000000));
+console.log(percentageOfWorld1('japan',125000000));
+console.log(percentageOfWorld1('usa',336000000));
+
 
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -110,10 +109,11 @@ console.log(`dan so cua cac nuoc lan luot la ${tile1}%  ${tile2}%  ${tile3}%  ${
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 // Lab 4.6. Các phép toán cơ bản với array
-
+/*
 const neighbours=['Republic of Sweden','laos','thailan'];
 
 const newneighbours=neighbours.push('Utopia');
 const bienmat=neighbours.pop();
 // console.log( 'Probably not a central European country :D');
 console.log(neighbours);
+*/

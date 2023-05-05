@@ -108,7 +108,7 @@ switch (language) {
 
 
 // LAB3.5: Toán tử điều kiện (ba ngôi)
-
+/*
 const danSo=33000000;
 const muctrungbinh=danSo ? 'tren' : 'duoi';
 console.log(muctrungbinh);
@@ -124,3 +124,78 @@ if(dansotrungbinh>=33000000){
 console.log(dansotrungbinh);
 
 console.log(`dân số nước tây ban nha ${dansotrungbinh ? 'tren':'duoi'} mức trung bình. `);
+
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+// Lab 3.6.1. Đội nào chiến thắng?
+/*
+const diemDolphins = (96+108+89) / 3;
+const diemKoalas = (88+91+110) / 3;
+
+console.log(diemDolphins,diemKoalas);
+
+if (diemDolphins>diemKoalas){
+  console.log('Dophins win');
+}else if (diemDolphins<diemKoalas){
+  console.log('Koalas win');
+}else{
+  console.log('no win');
+}
+
+*/
+
+
+// BONUS 1
+/*
+
+const diemDolphins = (97+112+101) / 3;
+const diemKoalas = (109+95+123) / 3;
+
+console.log(diemDolphins,diemKoalas);
+
+if (diemDolphins>diemKoalas&&diemDolphins>=100){
+  console.log('Dophins win');
+}else if (diemDolphins<diemKoalas&&diemKoalas>=100){
+  console.log('Koalas win');
+}else if(diemDolphins===diemKoalas&&diemDolphins>=100&&diemKoalas>=100){
+  console.log('hoa');
+}else{
+  console.log('no win');
+}
+*/
+
+// BONUS 2
+
+/*
+const diemDolphins = (97+112+101) / 3;
+const diemKoalas = (109+95+106) / 3;
+
+console.log(diemDolphins,diemKoalas);
+
+if (diemDolphins>diemKoalas&&diemDolphins>=100){
+  console.log('Dophins win');
+}else if (diemDolphins<diemKoalas&&diemKoalas>=100){
+  console.log('Koalas win');
+}else if(diemDolphins===diemKoalas&&diemDolphins>=100&&diemKoalas>=100){
+  console.log('hoa');
+}else{
+  console.log('no win');
+}
+
+*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// Lab 3.6.2. Tip calculator
+
+const bill = 430;
+const tip=bill <= 300 && bill >=50 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill+tip}`);
+
+
+
+
