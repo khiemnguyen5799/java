@@ -94,7 +94,7 @@ const tinhtile=function (tile){
 
   return tile/7900000000*100;
 }
-const percentages= [9000000000,1441000000000,125000000000,336000000000]
+const percentages= [90000000,1441000000,125000000,336000000]
 const tile1=tinhtile(percentages[0]);
 const tile2=tinhtile(percentages[1]);
 const tile3=tinhtile(percentages[2]);
